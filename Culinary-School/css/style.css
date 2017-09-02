@@ -1,0 +1,81 @@
+*{
+    font-family: 'Droid Sans', sans-serif;
+  }
+  .navbar {
+    margin-bottom: 0;
+    background-color: #7A2828;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 2.1px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #EFEBE9 !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #7A2828 !important;
+    background-color: #EFEBE9 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #EFEBE9 !important;
+}
+
+.jumbotron { 
+    background-color: #A1887F; 
+    color: #ffffff;
+}
+.container-fluid {
+    padding: 60px 50px;
+}
+.logo-small {
+    color: #7A2828;
+    font-size: 50px;
+}
+.myBtn{
+    background-color: #4E342E; 
+    color: #ffffff;
+}
+.myBg{
+    background-color: #EFEBE9; 
+}
+
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+}
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #7A2828;
+}
+
+#foot{
+    background-color: #7A2828;
+    border: 0;
+    font-size: 11px;
+    line-height: 1.5;
+    border-radius: 0;
+    height: 50px;
+}
+#foot ul li{
+ display: inline-block;
+ padding-top: 20px;
+} 
+#foot ul li a{
+color: #EFEBE9 ;
+margin: 60px;
+text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
