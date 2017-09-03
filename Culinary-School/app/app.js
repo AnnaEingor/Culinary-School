@@ -14,10 +14,15 @@ culinaryApp.config(function($routeProvider){
         templateUrl: "app/gallery/gallery.html"
       })
     .when("/prices", {
-        templateUrl: "app/prices/prices.html"
+        templateUrl: "app/prices/prices.html",
+        controller: "pricesCtrl"
     })
     .when("/contacts", {
         templateUrl: "app/contacts/contacts.html"
+    })
+    .when("/newUser", {
+        templateUrl: "app/newUser/newUser.html",
+        controller: "newUserCtrl"
     })
 
        .otherwise({

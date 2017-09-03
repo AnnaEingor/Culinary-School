@@ -1,0 +1,35 @@
+[
+    { "firstName": "Anna",
+      "lastName": "Eingor",
+      "birthday": 19899,
+      "email": "an.lerm@yandex.ru",
+      "phone": 123456,
+      "password": "123456",
+      "courseId": "1"
+    },
+      
+    { "firstName": "Vanna",
+      "lastName": "Tutut",
+      "birthday": 19899,
+      "email": "an@yandex.ru",
+      "phone": 123456,
+      "password": "654321",
+      "courseId": "1"
+    },
+    { "firstName": "Janna",
+      "lastName": "Pfpfpf",
+      "birthday": 9899,
+      "email": "janna@yandex.ru",
+      "phone": 123456,
+      "password": "789100",
+      "courseId": "2"
+    },
+    { "firstName": "Ioanna",
+      "lastName": "FGHHjjj",
+      "birthday": 19899,
+      "email": "ioanna@yandex.ru",
+      "phone": 123456,
+      "password": "0909090",
+      "courseId": "3"
+    }
+    ]

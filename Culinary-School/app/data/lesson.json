@@ -1,0 +1,33 @@
+[
+    {"title": "Базовый курс",
+     "numberCourse": "1",
+     "daysAndDate": "Четверг 18.30",
+     "baseTheme": "Супы и салаты. 1 урок"
+},
+{"title": "Базовый курс",
+    "numberCourse": "2",
+    "daysAndDate": "Вторник 18.30",
+    "baseTheme": "Десерты. 1 урок"
+},
+{"title": "Базовый курс",
+    "numberCourse": "1",
+    "daysAndDate": "Четверг 18.30",
+    "baseTheme": "Супы и салаты. 2 урок"
+},
+{"title": "Базовый курс",
+    "numberCourse": "2",
+    "daysAndDate": "Вторник 18.30",
+    "baseTheme": "Десерты. 2 урок"
+},
+{"title": "Базовый курс",
+    "numberCourse": "1",
+    "daysAndDate": "Четверг 18.30",
+    "baseTheme": "Супы и салаты. 3 урок"
+},
+{"title": "Базовый курс",
+    "numberCourse": "1",
+    "daysAndDate": "Вторник 18.30",
+    "baseTheme": "Десерты. 3 урок"
+}
+
+]
