@@ -8,7 +8,7 @@ culinaryApp.config(function($routeProvider){
 
    .when("/classes", {
            templateUrl: "app/classes/classes.html",
-        //    controller: "classesCtrl"
+            controller: "classesCtrl"
        })
     .when("/gallery", {
         templateUrl: "app/gallery/gallery.html"
