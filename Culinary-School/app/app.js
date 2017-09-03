@@ -24,6 +24,9 @@ culinaryApp.config(function($routeProvider){
         templateUrl: "app/newUser/newUser.html",
         controller: "newUserCtrl"
     })
+    .when("/schedule", {
+        templateUrl: "app/schedule/schedule.html"
+    })
 
        .otherwise({
         templateUrl: "app/home/school.html"
