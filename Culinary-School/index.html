@@ -20,13 +20,34 @@
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
 
+    <!--Firebase-->
+    <script src="https://cdn.firebase.com/js/client/2.0.4/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/0.9.0/angularfire.min.js"></script>
+    
+   <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+   <script src="https://cdn.firebase.com/libs/firebaseui/1.0.0/firebaseui.js"></script>  
+   <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/1.0.0/firebaseui.css" /> 
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBzEhAEUkQfVo2q7F1e53bU4cGykw-MPaU",
+            authDomain: "learning-a1358.firebaseapp.com",
+            databaseURL: "https://learning-a1358.firebaseio.com",
+            projectId: "learning-a1358",
+            storageBucket: "",
+            messagingSenderId: "181369951591"
+        };
+        firebase.initializeApp(config);
+    </script>
+
     <!--App Stuff-->
     <script src="app/app.js"></script>
     <script src="app/classes/classesCtrl.js"></script> 
     <script src="app/classes/modalCtrl.js"></script> 
     <script src="app/prices/pricesCtrl.js"></script>
+    <script src="app/services/authService.js"></script>
     <script src="app/newUser/newUserCtrl.js"></script>
-    
+    <script src="app/login/loginCtrl.js"></script>
     <link href="css/style.css" rel="stylesheet">
     <link href="css/stylePrice.css" rel="stylesheet">
 </head>
