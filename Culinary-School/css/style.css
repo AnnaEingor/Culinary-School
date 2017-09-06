@@ -32,10 +32,17 @@
 }
 .container-fluid {
     padding: 60px 50px;
+    margin-right: 0;
+    margin-left: 0;
 }
 .logo-small {
     color: #7A2828;
     font-size: 50px;
+}
+
+.logo-big {
+    color: green;
+    font-size: 100px;
 }
 .myBtn{
     background-color: #4E342E; 
@@ -62,6 +69,7 @@ footer .glyphicon {
     line-height: 1.5;
     border-radius: 0;
     height: 50px;
+    width: 100%;
 }
 #foot ul li{
  display: inline-block;

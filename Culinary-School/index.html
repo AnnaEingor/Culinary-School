@@ -48,6 +48,7 @@
     <script src="app/prices/pricesCtrl.js"></script>
     <script src="app/services/authService.js"></script>
     <script src="app/newUser/newUserCtrl.js"></script>
+    <script src="app/newUser/thankCtrl.js"></script>
     <script src="app/login/loginCtrl.js"></script>
     <link href="css/style.css" rel="stylesheet">
     <link href = "css/styleModals.css" rel = "stylesheet">
@@ -92,18 +93,22 @@
             </div>
         </form>
     </div>
+
     <ng-view></ng-view>
     
 
    
 
     <!--Footer-->
-    <footer class="container-fluid text-center">
-        <a href="#myPage" title="To Top">
+    <footer class="hidden-xs">
+
+    <div class="container-fluid text-center" >
+       <a href="#myPage" title="To Top">
                   <span class="glyphicon glyphicon-chevron-up"></span>
-        </a>
+        </a> 
         
         <div class = "row">
+            
         <div class="footer-inner" id="foot">
            <ul>
                 <li><a href="#!classes">МАСТЕР-КЛАССЫ</a></li>
@@ -114,8 +119,9 @@
             </ul>
         </div>
     </div>
-    </footer>
-
+    </div>
+    
+    </footer> 
     
 </body>
 

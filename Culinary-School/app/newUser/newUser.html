@@ -1,8 +1,14 @@
-<h2 class ="text-center">Создайте, пожалуйста, Вашу личную страницу</h2>
-<h4 class ="text-center">Вы сможете иметь доступ к специальным разделам нашего сайта</h4>
+<h3 class ="text-center">Оставьте, пожалуйста, информацию о себе</h3>
+<br>
+<p>На любой выбранный Вами мастер-класс мы просим Вас сделать <strong>предоплату 50%</strong>. 
+    Оплату Базового курса можно разбить на 3 платежа, но первый платеж нужно сделать за 3 дня до начала курса. 
+    Заполните свои данные и нажимайте на "Сохранить". Справа Вы видите номер карты Сбербанка, на которую можно сделать платеж. 
+    Как только поступят деньги, мы отправим Вам ответное сообщение</p>
 <br>
 <br>
-<div class="container">
+<div class="container-fluid myBg">
+    <div class = "row">
+            <div class="col-sm-8">
     <form class="form-horizontal" role="form" >
         
         <div class="form-group">
@@ -18,14 +24,7 @@
                 <input type="text" id="lastName" placeholder="Last Name" class="form-control" ng-model="newUser.lastName" ng-value="usrLastName">
             </div>
         </div>
-        <div class="form-group">
-            <label for="bday" class="col-sm-2 control-label">BirthDay</label>
-            <div class="col-sm-10">
-                <input type="date" id="bday" placeholder="01.12.2012" class="form-control" ng-model="newUser.bday" ng-value="usrBDay">
-            </div>
-        </div>
-
-
+        
         <div class="form-group">
             <label for="email" class="col-sm-2 control-label">Email</label>
             <div class="col-sm-10">
@@ -40,24 +39,27 @@
             </div>
         </div>
 
-        <div class="form-group">
-            <label for="password" class="col-sm-2 control-label">Password</label>
-            <div class="col-sm-10">
-                <input type="password" id="password" placeholder="Password" class="form-control" ng-model="newUser.password">
-            </div>
-        </div>
-
-
+        
         <div class="form-group">
             <div class="col-sm-10 col-sm-offset-2">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <button type="reset" class="btn btn-primary myBtn btn-block" ng-click="cancel()">Cancel</button>
+                    <button type="reset" class="btn btn-default btn-lg myBtn btn-block" >Очистить</button>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <button type="submit" class="btn btn-primary myBtn btn-block" ng-click="saveUser()">Save</button>
-                </div>
+                        <div  data-toggle="modal" data-target="#thanks">                                                      
+                   
+                            <button type="submit" class="btn btn-default btn-lg myBtn btn-block" ng-click="saveUser()">Сохранить</button>
+                        </div> 
+                        </div>
             </div>
         </div>
     </form>
-
+            </div>
+            <div class="col-sm-4">
+              <p><strong>Номер карты Сбербанка для перевода</strong></p>
+              <p>0000 1111 2222 3333 4444</p>
+              <p>Ким Елена Леонидовна</p>
+            </div>
+    </div>
 </div>
+
