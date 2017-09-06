@@ -3,10 +3,24 @@ h4.modal-title{
       font-weight: bold;
   }
 
-  .modal-body img{
-      height: 60%;
-  }
-
-  .modal-footer a#closeBtn.btn:focus{
+ .modal-footer a#closeBtn.btn:focus{
       color: #4E342E;
   }
+
+  .responsiveCal {
+       position: relative; 
+       padding-bottom: 75%; 
+       height: 0; 
+       overflow: hidden;
+   
+   }
+    
+   .responsiveCal iframe {
+      position: absolute; 
+      top:5%; 
+      left: 10%; 
+      width: 80%; 
+      height: 80%;
+      
+   }
+   

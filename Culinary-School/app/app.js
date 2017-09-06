@@ -4,6 +4,7 @@ culinaryApp.config(function($routeProvider){
     $routeProvider
  .when("/", {
    templateUrl: "app/home/school.html",
+   controller: "schoolCtrl"
    })
 
    .when("/classes", {
@@ -33,6 +34,7 @@ culinaryApp.config(function($routeProvider){
     })
 
        .otherwise({
-        templateUrl: "app/home/school.html"
+        templateUrl: "app/home/school.html",
+        controller: "schoolCtrl"
     });
 });

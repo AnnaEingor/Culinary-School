@@ -1,4 +1,4 @@
-culinaryApp.controller("classesCtrl", function($scope, $uibModal, $routeParams){
+culinaryApp.controller("classesCtrl", function($scope, $uibModal){
 
      $scope.openModalBase = function () {
          $uibModal.open({
@@ -7,7 +7,6 @@ culinaryApp.controller("classesCtrl", function($scope, $uibModal, $routeParams){
            
         });
       };
-
-    
+      
 });
 
