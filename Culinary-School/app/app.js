@@ -1,4 +1,4 @@
-var culinaryApp = angular.module("culinaryApp", ["ngRoute", "ngAnimate", "ui.bootstrap"]); 
+var culinaryApp = angular.module("culinaryApp", ["ngRoute", "ngAnimate", "ui.bootstrap", "ngMessages"]); 
 
 culinaryApp.config(function($routeProvider){
     $routeProvider
